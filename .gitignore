@@ -1,0 +1,46 @@
+# PYTHON
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# SENSITIVE CONFIGURATION
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secrets*.json
+
+# DATASETS AND MODEL ARTIFACTS
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+saved_model/
+checkpoints/
+logs/
+wandb/
+mlruns/
+
+# IMAGE DATASETS, GENERATED LOCAL CONTENT
+/data/cherry/
+/data/raw/
+/data/processed/
+
+# OPERATING SYSTEM / EDITOR
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

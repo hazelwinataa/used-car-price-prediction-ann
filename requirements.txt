@@ -1,0 +1,9 @@
+# Illustrative install dependencies; original notebook environment was not re-created or executed.
+tensorflow
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+pyarrow
+jupyterlab
